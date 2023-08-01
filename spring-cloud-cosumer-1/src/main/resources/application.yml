@@ -1,0 +1,19 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: service-cosumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    loadbalancer:
+      nacos:
+        enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+queue:
+  min-size: 24

@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        name: nacos
+        server-addr: 127.0.0.1:8848
+        group: DEFAULT_GROUP
+        extension-configs:
+          - data-id: provider
+            group: DEFAULT_GROUP
+            refresh: true
+        password: nacos

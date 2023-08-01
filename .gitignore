@@ -1,0 +1,15 @@
+# Project exclude paths
+/spring-cloud-cosumer-1/target/
+/spring-cloud-provider-1/target/
+
+.idea　　　　
+.mvn　　　　
+.iml
+mvnw
+mvnw.cmd
+logs/
+target/
+
+.project
+.settings
+.classpath
